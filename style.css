@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./beautiful-sky-clouds-autumn-sunset-background_692702-7800.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainSection {
+  width: 60rem;
+  background-color: rgba(114, 110, 110, 0.6);
+  margin: 10rem auto 0 auto;
+  /* padding: 2rem; */
+  padding: 2rem 0 5rem 0;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+.form input,
+.form select {
+  flex-grow: 1;
+  width: 20rem;
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  border: .4rem solid #2ed473;
+  border-radius: 1rem;
+  outline: none;
+}
+button {
+    padding: 1rem 3rem;
+    background-color: #2ed473;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
